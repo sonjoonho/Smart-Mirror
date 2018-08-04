@@ -1,0 +1,240 @@
+html {
+
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: black;
+	-webkit-filter: invert(100%);
+	/*-webkit-transform: rotate(-90deg);*/
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../resources/fonts/Roboto-Light.ttf') format('opentype');
+}   
+
+* {
+	font-family: 'Roboto';
+}
+
+h1 {
+	margin-bottom:0;
+	font-size:36px;
+	font-weight:normal;
+
+}
+
+h2 {
+	margin:0;
+	font-size:22px;
+	font-weight:normal;
+}
+
+h3 {
+	margin:0;
+	font-size:14px;
+
+	font-weight:500;
+}
+
+p {
+	font-size:8px;
+	margin:0;
+    font-weight:300;	
+}
+
+#clock {
+    font-size:36px;
+    text-align:center;
+	float:left;
+    padding-left: 16px;
+}
+
+
+@font-face {
+    font-family: 'weather';
+    src: url('../resources/weathericons/artill_clean_icons.otf') format('opentype');
+}
+
+#weather {
+	/*-webkit-transform: rotate(90deg);*/
+	float:right;
+    padding-right: 16px;
+}
+
+#weatherCurrent ul {
+	padding:0;
+	font-size:8px;
+	text-align: left;
+	margin:0;
+	list-style-type: none;
+}
+
+ i {
+ 	margin:0;
+ 	padding:0;
+ 	line-height:0;
+ 	font-size:48px;
+	font-family: 'weather';
+	font-weight: normal;
+    font-style: normal;
+}
+
+.forecastBox {
+	padding: 5px 5px 0 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.forecastBox p {
+	text-align: left;
+}
+
+.forecastBox i {
+	font-size:20px;
+}
+
+.low {
+	color: #404040;
+}
+
+.degrees {
+	font-size: 14px;
+	position: relative;
+	bottom: 13px;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#greeting {
+	position: absolute;
+	text-align: center;
+	left: 0;
+	width: 100%;
+	bottom: 8%;
+}
+
+#map {
+	position:relative;
+	top: 50%;
+	width: 200px;
+	height: 200px;	
+}
+
+#recording {
+	position: absolute;
+	top: 88px;
+	left: 50px;
+	visibility: hidden;
+}
+
+#rss {
+	position: relative;
+	top: -70px;
+	overflow: hidden;
+	background-color: #e6e6e6;
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#rss ul {
+	padding-left: 20px;
+}
+
+#rss li {
+	margin: 10px 8px;
+}	
+
+#traveldiv {
+/*	border: 1px solid transparent;*/
+	position: relative;
+	background-color: #e6e6e6;
+	height: 80px;
+	width: 200px;
+	top: 40%;
+	display: none;
+	margin: 0 auto;
+}
+#bicycle {
+
+	position: absolute;
+	display: inherit;
+	/*top:10px;*/
+}
+
+#traveltext {
+	display: inherit;
+	margin:0;
+	font-size:14px;
+
+	font-weight:500;
+}
+
+#translate {
+	position: relative;
+	top: 30%;
+	overflow: hidden;
+	background-color: #e6e6e6;
+	display: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#translate h2 {
+	text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' * data: gap: https: 'unsafe-eval'; style-src 'self' 'unsafe-inline' https: ; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src = 'js/jquery.simpleWeather.min.js'></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJf-5coy00nMhG5w1Weopis4n3wyQBOTc&callback=initMap"></script>
+
+        <title>Smart Mirror</title>
+    </head>
+
+    <body>
+        <div id='clock'></div>
+        <div id='weather'></div>
+        <div id='translate'></div>
+        <div id='traveldiv'>
+            <img src='resources/img/bicycle.png' id='bicycle' height='40' />
+            <div id='traveltext'></div>
+        </div>
+        <div id='map'></div>
+        <div id='rss'></div>
+        <img src='resources/img/recording.jpg' id='recording' height='30'/>
+        <div id='greeting'></div>
+        <audio id='player'></audio>
+        <div id='rss'></div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Joonho\Google Drive\College\EP\Apps\SmartMirrorApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="64c19c514393ced6b138547f28b566075572d7b4">
+        <dex dex="C:\Users\Joonho\Google Drive\College\EP\Apps\SmartMirrorApp\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_193395c24968e4b8f139ec098dfaa06f509f2cbd.jar" />
+    </item>
+
+</items>
